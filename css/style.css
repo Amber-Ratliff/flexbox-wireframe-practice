@@ -1,0 +1,47 @@
+@import url("./reset.css");
+
+.flexbox-container {
+    height: 100vh;
+    width: 75vw;
+    margin: 12.5vh 12.5vw;
+    display: flex;
+    background-color: coral;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex: 3 0 0;
+    
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5vw;
+    gap: 10px;
+}
+article {
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    padding: 2.5vh 15vw;
+}
+.header {
+    background-color: blueviolet;
+    color: white;
+    padding: 5vw 20vw;
+    border-radius: 10px;
+}
+.aside {
+    background-color: blue;
+    color: white;
+    padding: 5vw 20vw;
+    border-radius: 10px; 
+}
+.footer {
+    background-color: limegreen;
+    color: white;
+    padding: 5vw 20vw;
+    border-radius: 10px;
+}  
